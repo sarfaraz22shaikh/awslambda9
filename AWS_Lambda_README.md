@@ -1,26 +1,4 @@
-# Assignment 9 -- AWS Lambda Practice
 
-This README contains all 10 Lambda questions with minimal Python code,
-dummy test inputs, and short setup steps.
-
-## Prerequisites
-
--   An AWS account.
--   Create a DynamoDB table named `Students`.
--   Use **`PRN` as the partition key (String)** for the student
-    exercises below.
--   Create Lambda functions with the Python 3.12 runtime.
--   Attach the required DynamoDB permissions to each Lambda execution
-    role.
--   For S3 exercises, create an S3 bucket in the same AWS Region as the
-    Lambda function.
-
-> **Important:** These examples assume the `Students` table has `PRN` as
-> its partition key. If your existing table uses `student_id`, change
-> each `PRN` key in the code to `student_id` and use that field
-> consistently.
-
-------------------------------------------------------------------------
 
 ## 1. Add two numbers
 
